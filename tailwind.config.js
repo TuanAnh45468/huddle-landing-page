@@ -21,8 +21,8 @@ module.exports = {
         "semi-bold": 600,
       },
       backgroundImage: {
-        "mobile-background": "url(/dist/images/bg-mobile.svg)",
-        "desktop-background": "url(/dist/images/bg-desktop.svg)",
+        "mobile-background": "url(images/bg-mobile.svg)",
+        "desktop-background": "url(images/bg-desktop.svg)",
       },
     },
   },
