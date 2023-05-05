@@ -7,3 +7,9 @@
         @apply font-open-sans text-base
     }
 }
+
+@layer components{
+    .icon-container:hover .icon{
+        fill: hsl(300, 69%, 71%);
+    }
+}
