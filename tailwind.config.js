@@ -5,6 +5,7 @@ module.exports = {
     colors: {
       violet: "hsl(257, 40%, 49%)",
       "soft-magenta": "hsl(300, 69%, 71%)",
+      white: "#fff",
     },
     screens: {
       mobile: "375px",
@@ -18,6 +19,10 @@ module.exports = {
       fontWeight: {
         regular: 400,
         "semi-bold": 600,
+      },
+      backgroundImage: {
+        "mobile-background": "url(/dist/images/bg-mobile.svg)",
+        "desktop-background": "url(/dist/images/bg-desktop.svg)",
       },
     },
   },
