@@ -758,12 +758,24 @@ body {
     align-self: flex-start;
   }
 
+  .laptop\:self-end {
+    align-self: flex-end;
+  }
+
   .laptop\:bg-desktop-background {
     background-image: url(/dist/images/bg-desktop.svg);
   }
 
   .laptop\:pl-8 {
     padding-left: 2rem;
+  }
+
+  .laptop\:pr-\[140px\] {
+    padding-right: 140px;
+  }
+
+  .laptop\:pr-\[130px\] {
+    padding-right: 130px;
   }
 
   .laptop\:text-left {
